@@ -14,3 +14,7 @@ Console.WriteLine(empleado.mostrarSalario());
 empleado.aumentarSalario();
 
 Console.WriteLine(empleado.mostrarSalario());
+
+supervisor.aumentarSalario();  
+
+ Console.WriteLine(supervisor.mostrarSalario());
