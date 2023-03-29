@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\javy_\\.nuget\\packages\\": {}
+    "C:\\Users\\Aula Multimedia\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\javy_\\OneDrive\\Documents\\Proyectos de visual\\Proyecto1\\Proyecto1\\Proyecto1.csproj",
+      "projectUniqueName": "D:\\Laboratorio de software\\ProyectoEmpleados\\Proyecto1\\Proyecto1\\Proyecto1.csproj",
       "projectName": "Proyecto1",
-      "projectPath": "C:\\Users\\javy_\\OneDrive\\Documents\\Proyectos de visual\\Proyecto1\\Proyecto1\\Proyecto1.csproj",
-      "packagesPath": "C:\\Users\\javy_\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\javy_\\OneDrive\\Documents\\Proyectos de visual\\Proyecto1\\Proyecto1\\obj\\",
+      "projectPath": "D:\\Laboratorio de software\\ProyectoEmpleados\\Proyecto1\\Proyecto1\\Proyecto1.csproj",
+      "packagesPath": "C:\\Users\\Aula Multimedia\\.nuget\\packages\\",
+      "outputPath": "D:\\Laboratorio de software\\ProyectoEmpleados\\Proyecto1\\Proyecto1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\javy_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Aula Multimedia\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -51,8 +51,7 @@
           "net47",
           "net471",
           "net472",
-          "net48",
-          "net481"
+          "net48"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -61,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

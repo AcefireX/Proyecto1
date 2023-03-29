@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Proyecto1
 {
-    internal class Coche
+    public class Coche
     {
         private string matricula;
         private string marca;

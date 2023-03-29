@@ -1,7 +1,5 @@
 ﻿using Proyecto1;
 
-
-
 Coche coche = new Coche("jkl564", "Ford", "fiesta");
 Secretario secretario = new Secretario("Fede", "Lopez", 45639874, "Valparaiso 3353", 32, 11447788, 40000.0, 12);
 Supervisor supervisor = new Supervisor("Mariano", "Martinez", 38636363, "brasil 1234", 45, 1188996633, 60000.0, 50, coche, secretario);
