@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\javy_\\.nuget\\packages\\": {}
+    "C:\\Users\\elfab\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\javy_\\OneDrive\\Documents\\Proyectos de visual\\Proyecto1\\Proyecto1\\Proyecto1.csproj",
+      "projectUniqueName": "C:\\Users\\elfab\\Documents\\GitHub\\Laboratorio de software\\Proyecto1\\Proyecto1\\Proyecto1.csproj",
       "projectName": "Proyecto1",
-      "projectPath": "C:\\Users\\javy_\\OneDrive\\Documents\\Proyectos de visual\\Proyecto1\\Proyecto1\\Proyecto1.csproj",
-      "packagesPath": "C:\\Users\\javy_\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\javy_\\OneDrive\\Documents\\Proyectos de visual\\Proyecto1\\Proyecto1\\obj\\",
+      "projectPath": "C:\\Users\\elfab\\Documents\\GitHub\\Laboratorio de software\\Proyecto1\\Proyecto1\\Proyecto1.csproj",
+      "packagesPath": "C:\\Users\\elfab\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\elfab\\Documents\\GitHub\\Laboratorio de software\\Proyecto1\\Proyecto1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\javy_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\elfab\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

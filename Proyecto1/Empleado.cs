@@ -21,22 +21,21 @@ namespace Proyecto1
 
         public override void aumentarSalario()
         {
-            this.salario = salario * 1.1;
-        }
-
-        public override void aumentarSalarioAntiguedad()
-        {
-           Double salarioNeto = this.salario;
+            Double salarioNeto = this.salario;
 
             if (this.fNacimiento.Year < 1964)
             {
                 this.salario = (salarioNeto * 0.05) + this.salario;
-                Console.WriteLine("entro en el if");
+
             }
 
-           this.salario = this.salario + ((salarioNeto * 0.01) * this.añosAntiguedad);
+            this.salario = this.salario + ((salarioNeto * 0.01) * this.añosAntiguedad);
 
+            this.salario = this.salario + (salarioNeto * 0.1);
+          
         }
+
+       
 
         public void cambiarSupervisor(Supervisor supervisor)
         {

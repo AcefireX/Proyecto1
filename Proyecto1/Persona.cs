@@ -44,10 +44,7 @@ namespace Proyecto1
            
         }
 
-        public virtual void aumentarSalarioAntiguedad()
-        {
        
-        }
         
         public double mostrarSalario()
         {
