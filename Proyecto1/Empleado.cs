@@ -8,10 +8,10 @@ namespace Proyecto1
 
         private Supervisor supervisor;
 
-        public Empleado(string nombre, string apellido, int dni, string direccion, int edad, int telefono, double salario, int añosAntiguedad, Supervisor supervisor) : base(nombre, apellido, dni, direccion, edad, telefono, salario, añosAntiguedad)
+        public Empleado(string nombre, string apellido, int dni, string direccion, int edad, int telefono, double salario, int añosAntiguedad, DateTime fNacimiento,  Supervisor supervisor) : base(nombre, apellido, dni, direccion, edad, telefono, salario, añosAntiguedad, fNacimiento)
         {
-          this.supervisor = supervisor;
-         }
+            this.supervisor = supervisor;
+        }
 
         public override string Presentarse()
         {
@@ -21,7 +21,21 @@ namespace Proyecto1
 
         public override void aumentarSalario()
         {
-             this.salario = salario * 1.1;
+            this.salario = salario * 1.1;
+        }
+
+        public override void aumentarSalarioAntiguedad()
+        {
+           Double salarioNeto = this.salario;
+
+            if (this.fNacimiento.Year < 1964)
+            {
+                this.salario = (salarioNeto * 0.05) + this.salario;
+                Console.WriteLine("entro en el if");
+            }
+
+           this.salario = this.salario + ((salarioNeto * 0.01) * this.añosAntiguedad);
+
         }
 
         public void cambiarSupervisor(Supervisor supervisor)

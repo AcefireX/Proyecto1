@@ -7,7 +7,7 @@ namespace Proyecto1
             private Secretario secretario;
             private Coche coche;
 
-            public Supervisor(string nombre, string apellido, int dni, string direccion, int edad, int telefono, double salario, int añosAntiguedad, Coche coche, Secretario secretario) : base(nombre, apellido, dni, direccion, edad, telefono, salario, añosAntiguedad)
+            public Supervisor(string nombre, string apellido, int dni, string direccion, int edad, int telefono, double salario, int añosAntiguedad, Coche coche, Secretario secretario, DateTime fNacimiento) : base(nombre, apellido, dni, direccion, edad, telefono, salario, añosAntiguedad, fNacimiento)
             {
                 this.coche = coche;
                 this.secretario = secretario;
@@ -21,6 +21,14 @@ namespace Proyecto1
             public void cambiarCoche(Coche coche)
             {
                 this.coche = coche;
+            }
+
+            public override void aumentarSalarioAntiguedad()
+            {
+               Double salarioNeto = this.salario;
+
+               this.salario = this.salario + ((salarioNeto * 0.01) * this.añosAntiguedad);
+
             }
 
             public void cambiarSecretario(Secretario secretario)

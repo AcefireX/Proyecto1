@@ -18,8 +18,9 @@ namespace Proyecto1
         internal int telefono;
         internal double salario;
         internal int añosAntiguedad;
+        internal DateTime fNacimiento;
 
-        public Persona(string nombre, string apellido, int dni, string direccion, int edad, int telefono, double salario, int añosAntiguedad)
+        public Persona(string nombre, string apellido, int dni, string direccion, int edad, int telefono, double salario, int añosAntiguedad, DateTime fNacimiento)
         {
             this.nombre = nombre;
             this.apellido = apellido;
@@ -29,6 +30,8 @@ namespace Proyecto1
             this.telefono = telefono;
             this.salario = salario;
             this.añosAntiguedad = añosAntiguedad;
+            this.fNacimiento = fNacimiento;
+
         }
 
         public virtual string Presentarse()
@@ -39,6 +42,11 @@ namespace Proyecto1
         public virtual void aumentarSalario()
         {
            
+        }
+
+        public virtual void aumentarSalarioAntiguedad()
+        {
+       
         }
         
         public double mostrarSalario()
