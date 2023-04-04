@@ -28,3 +28,18 @@ D:\Laboratorio de software\ProyectoEmpleados\Proyecto1\Proyecto1\bin\Debug\net6.
 D:\Laboratorio de software\ProyectoEmpleados\Proyecto1\Proyecto1\bin\Debug\net6.0\ref\Proyecto1.dll
 D:\Laboratorio de software\ProyectoEmpleados\Proyecto1\Proyecto1\bin\Debug\net6.0\Proyecto1.pdb
 D:\Laboratorio de software\ProyectoEmpleados\Proyecto1\Proyecto1\obj\Debug\net6.0\Proyecto1.genruntimeconfig.cache
+C:\Users\ricar\Source\Repos\AcefireX\Proyecto1\Proyecto1\obj\Debug\net6.0\Proyecto1.csproj.AssemblyReference.cache
+C:\Users\ricar\Source\Repos\AcefireX\Proyecto1\Proyecto1\obj\Debug\net6.0\Proyecto1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ricar\Source\Repos\AcefireX\Proyecto1\Proyecto1\obj\Debug\net6.0\Proyecto1.AssemblyInfoInputs.cache
+C:\Users\ricar\Source\Repos\AcefireX\Proyecto1\Proyecto1\obj\Debug\net6.0\Proyecto1.AssemblyInfo.cs
+C:\Users\ricar\Source\Repos\AcefireX\Proyecto1\Proyecto1\obj\Debug\net6.0\Proyecto1.csproj.CoreCompileInputs.cache
+C:\Users\ricar\Source\Repos\AcefireX\Proyecto1\Proyecto1\obj\Debug\net6.0\Proyecto1.dll
+C:\Users\ricar\Source\Repos\AcefireX\Proyecto1\Proyecto1\obj\Debug\net6.0\refint\Proyecto1.dll
+C:\Users\ricar\Source\Repos\AcefireX\Proyecto1\Proyecto1\obj\Debug\net6.0\Proyecto1.pdb
+C:\Users\ricar\Source\Repos\AcefireX\Proyecto1\Proyecto1\bin\Debug\net6.0\Proyecto1.exe
+C:\Users\ricar\Source\Repos\AcefireX\Proyecto1\Proyecto1\bin\Debug\net6.0\Proyecto1.deps.json
+C:\Users\ricar\Source\Repos\AcefireX\Proyecto1\Proyecto1\bin\Debug\net6.0\Proyecto1.runtimeconfig.json
+C:\Users\ricar\Source\Repos\AcefireX\Proyecto1\Proyecto1\bin\Debug\net6.0\Proyecto1.dll
+C:\Users\ricar\Source\Repos\AcefireX\Proyecto1\Proyecto1\bin\Debug\net6.0\Proyecto1.pdb
+C:\Users\ricar\Source\Repos\AcefireX\Proyecto1\Proyecto1\obj\Debug\net6.0\Proyecto1.genruntimeconfig.cache
+C:\Users\ricar\Source\Repos\AcefireX\Proyecto1\Proyecto1\obj\Debug\net6.0\ref\Proyecto1.dll

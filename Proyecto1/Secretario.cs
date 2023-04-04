@@ -8,7 +8,14 @@ namespace Proyecto1
         {
 
         }
-	
-		
-	}
+
+        public override void aumentarSalario()
+        {
+            double aumento = 1.10;
+            aumento = aumento + this.añosAntiguedad * 0.01;
+            if (this.edad >= 59) { aumento = aumento + 0.05; };
+            this.salario = salario * aumento;
+        }
+
+    }
 }

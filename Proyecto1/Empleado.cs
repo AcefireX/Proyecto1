@@ -21,7 +21,10 @@ namespace Proyecto1
 
         public override void aumentarSalario()
         {
-             this.salario = salario * 1.1;
+            double aumento = 1.10;
+            aumento = aumento + this.añosAntiguedad * 0.01;
+            if (this.edad >= 60) { aumento = aumento + 0.05; };
+            this.salario = salario * aumento;
         }
 
         public void cambiarSupervisor(Supervisor supervisor)
